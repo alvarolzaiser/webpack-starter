@@ -1,0 +1,25 @@
+/* Archivo de estilos CSS global */
+
+/* es como un archivo que tiene los estilos generales
+o bien llamados globales de mi aplicación, luego, lo puntual
+se va importando a medida que se va requiriendo, es decir
+todo el css que no sea necesario cargar, se evita y solo
+se carga cuando se requiere el archivo js que está usando
+esos estilos. En este caso, en este archivo, nosotros debemos
+poner los estilos que nuestra aplicacion va a utilizar
+siempre, de manera recurrente. No se debe cargar css
+que no se vaya a utilizar en la experiencia del usuario,
+ese css solo se debe cargar cuando se necesite, requiera
+o el usuario lo demande*/
+
+html, body {
+    background-color: wheat !important;
+}
+
+* {
+    color: black !important;
+}
+
+/* es sumamente importante que tengamos separados nuestros
+estilos globales con un archivo independiente por todo lo 
+que se describe arriba */
